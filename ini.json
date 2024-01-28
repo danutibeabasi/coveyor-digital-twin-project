@@ -1,0 +1,15 @@
+{
+	"broker_ip":"tcp://193.49.165.77",
+	"broker_port":"1883",
+	"client_name":"myclientid",
+	"stock_value":2,
+	"stock_max":10,
+	"initial_percent_speed":60,
+	"conveyor_id":"ca3653d851544c39",
+	"path":"emse/fayol/maqit/conveyor/",
+	"subscribe": [
+    	"/actuators/status",
+    	"/sensors/ir",
+    	"/actuators/request"
+  	]
+}
